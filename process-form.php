@@ -1,4 +1,4 @@
-<?php
+u<?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve form data
     $name = $_POST["name"];
@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST["message"];
 
     // Replace 'your-email@example.com' with your actual email address
-    $to = "abelekar@asu.com";
+    $to = "abelekar@asu.edu";
     $subject = "New Message from $name";
 
     // Email headers
